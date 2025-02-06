@@ -59,20 +59,31 @@
 
 // export default App
 
-import React, { Component } from 'react'
-import { Child1 } from './propsex/Child1'
-import { Child2 } from './propsex/Child2'
-import { Child3 } from './propsex/Child3'
-export class App extends Component {
-  render() {
-    return (
-      <div>App
-        <Child1/>
-        <Child2/>
-        <Child3/>
-      </div>
-    )
-  }
+// import React, { Component } from 'react'
+// import Child1 from './propsex/Child1'
+
+// export class App extends Component {
+//   render() {
+//     return (
+//       <div>App
+//         <Child1 university="Mallareddy university"/>
+//       </div>
+//     )
+//   }
+// }
+
+// export default App
+
+import React from 'react'
+import CBCStateEx from './stateexample/CBCStateEx'
+import FBCStateEx from './stateexample/FBCStateEx'
+const App = () => {
+  return (
+    <div>
+      {/* <CBCStateEx/> */}
+      <FBCStateEx/>
+    </div>
+  )
 }
 
 export default App
