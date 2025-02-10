@@ -74,19 +74,30 @@
 
 // export default App
 
+// import React from 'react'
+// import CBCStateEx from './stateexample/CBCStateEx'
+// import FBCStateEx from './stateexample/FBCStateEx'
+// import MyForm from './components/MyForm'
+// const App = () => {
+//   return (
+//     <div>
+//       <MyForm/>
+//       {/* <CBCStateEx/> */}
+//       {/* <FBCStateEx/> */}
+//     </div>
+//   )
+// }
+
+// export default App
+
 import React from 'react'
-import CBCStateEx from './stateexample/CBCStateEx'
-import FBCStateEx from './stateexample/FBCStateEx'
-import MyForm from './components/MyForm'
+import UseEffectEx from './hookexamples/UseEffectEx'
 const App = () => {
   return (
-    <div>
-      <MyForm/>
-      {/* <CBCStateEx/> */}
-      {/* <FBCStateEx/> */}
-    </div>
+    <div><UseEffectEx/></div>
   )
 }
 
-export default App
+export default App;
+
 
